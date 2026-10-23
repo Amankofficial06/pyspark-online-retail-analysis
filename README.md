@@ -72,6 +72,47 @@
 
 
 
+
+## Data Visualizations
+
+### 1. Monthly Revenue Trend
+This line chart illustrates monthly revenue over the dataset period and highlights changes in sales performance.
+
+![Monthly Revenue Trend](monthly_revenue.png)
+
+### 2. Top 10 Countries by Revenue
+This chart compares revenue across the ten highest-performing countries. The United Kingdom contributes the largest share of recorded revenue.
+
+![Top 10 Countries by Revenue](top_countries.png)
+
+### 3. Top 10 Products by Revenue
+This chart compares the top ten product descriptions by revenue. Some entries, such as postage and manual transactions, may represent charges or non-standard entries rather than ordinary products.
+
+![Top 10 Products by Revenue](top_products.png)
+
+## Project Outputs
+
+The `output` directory generated locally contains CSV results for:
+- Overall sales summary
+- Top products by revenue
+- Top countries by revenue
+- Monthly sales trends
+
+The visualizations are available as PNG files in this repository.
+
+## Skills Demonstrated
+- PySpark DataFrame operations
+- Data cleaning and duplicate removal
+- Date and timestamp conversion
+- Revenue calculation and aggregation
+- Grouping, sorting, and sales trend analysis
+- Data visualization with Matplotlib
+- Exporting analysis results to CSV
+- Project documentation with Markdown
+
+
+
+
 **## Output Files**
 
 **The `output` directory contains:**
